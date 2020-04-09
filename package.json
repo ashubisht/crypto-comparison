@@ -34,7 +34,7 @@
   "scripts": {
     "test": "yarn test",
     "start": "ts-node --files ./src/index.ts",
-    "start-prod": "node ./dist/sha256Bench.js",
+    "start-prod": "node ./dist/index.js",
     "compile": "rimraf ./dist/ && tsc -b ./tsconfig.compile.json",
     "typecheck": "tsc -b",
     "lint": "cross-env tslint -c tslint.json 'src/**/*.{ts,tsx}'",
